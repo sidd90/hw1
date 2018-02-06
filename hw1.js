@@ -16,7 +16,7 @@
 let weatherData = {
   current: {
     temperature: 67,
-    conditions: "Sunny"
+    conditions: "sunny"
   },
   forecast: [
     { temperature: 65, conditions: "Mostly Cloudy" },
@@ -24,4 +24,5 @@ let weatherData = {
   ]
 }
 
-console.log("Currently it is " + weatherData.current.temperature + " degrees and " + weatherData.current.conditions + ". Tomorrow it will be " + weatherData.forecast[0].temperature + " and " + weatherData.forecast[0].conditions + ". The next day it we will see " + weatherData.forecast[1].conditions + " skies, with a temperature of " + weatherData.forecast[1].temperature + ".");
+console.log("Currently it is " + weatherData.current.temperature + " degrees and " + weatherData.current.conditions + ". Tomorrow it will be " + weatherData.forecast[0].temperature + " and " + weatherData.forecast[0].conditions + ".");
+console.log("The next day it we will see " + weatherData.forecast[1].conditions + " skies, with a temperature of " + weatherData.forecast[1].temperature + ".");
